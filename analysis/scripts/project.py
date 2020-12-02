@@ -27,4 +27,4 @@ def load_and_process(url_or_path_to_csv_file):
         .replace(' >50K','1')
     )
 
-return income2
+    return income2
