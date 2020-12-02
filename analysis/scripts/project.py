@@ -23,8 +23,6 @@ def load_and_process(url_or_path_to_csv_file):
     income2 = (
         income
         .drop(['fnlwgt','education-num','occupation','capital-gain','capital-loss'],axis=1)
-        .replace(' <=50K','0')
-        .replace(' >50K','1')
     )
 
     return income2
